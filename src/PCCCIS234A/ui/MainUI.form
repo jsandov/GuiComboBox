@@ -9,7 +9,7 @@
     <border type="none"/>
     <children>
       <grid id="1d543" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-        <margin top="0" left="0" bottom="0" right="0"/>
+        <margin top="5" left="10" bottom="5" right="10"/>
         <constraints>
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -28,7 +28,7 @@
         </children>
       </grid>
       <grid id="40628" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-        <margin top="0" left="0" bottom="0" right="0"/>
+        <margin top="5" left="10" bottom="5" right="10"/>
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -55,12 +55,14 @@
                 <maximum-size width="100" height="-1"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <text value="50000"/>
+            </properties>
           </component>
         </children>
       </grid>
       <grid id="f9873" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-        <margin top="0" left="0" bottom="0" right="0"/>
+        <margin top="5" left="10" bottom="5" right="10"/>
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -74,23 +76,25 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="81125" class="javax.swing.JTable" binding="table1" default-binding="true">
+              <component id="81125" class="javax.swing.JTable" binding="showTable">
                 <constraints/>
-                <properties/>
+                <properties>
+                  <preferredScrollableViewportSize width="600" height="200"/>
+                </properties>
               </component>
             </children>
           </scrollpane>
         </children>
       </grid>
       <grid id="a685e" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-        <margin top="0" left="0" bottom="0" right="0"/>
+        <margin top="5" left="10" bottom="5" right="10"/>
         <constraints>
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties/>
         <border type="none"/>
         <children>
-          <component id="4cf3c" class="javax.swing.JButton" binding="episodeButtone">
+          <component id="4cf3c" class="javax.swing.JButton" binding="episodeButton">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
